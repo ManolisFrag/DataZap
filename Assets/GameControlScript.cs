@@ -3,7 +3,7 @@ using System.Collections;
 
 
 public class GameControlScript : MonoBehaviour {
-    float timeRemaining = 10;   //Pre-earned time
+    float timeRemaining = 20;   //Pre-earned time
     float timeExtension = 3f;   //time to extend by on collecting powerup
     float timeDeduction = 2f;   //time to reduce, on collecting the snag
     float totalTimeElapsed = 0;
@@ -11,6 +11,7 @@ public class GameControlScript : MonoBehaviour {
     public bool isGameOver = false;
     public GameControlScript control;
 
+    //public GameObject Canvas;
     // Use this for initialization
 
     public void PowerupCollected()
@@ -38,8 +39,11 @@ public class GameControlScript : MonoBehaviour {
         if (timeRemaining <= 0)
         {
             isGameOver = true;    // set the isGameOver flag to true if timeRemaining is zero
+        } 
+
         }
-    }
+    
+
     void OnGUI()
     {
         //check if game is not over, if so, display the score and the time left
