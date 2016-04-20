@@ -7,7 +7,7 @@ public class SpawnScript : MonoBehaviour
     public GameObject powerup;
 
     float timeElapsed = 0;
-    float spawnCycle = 0.5f;
+    float spawnCycle = 0.8f;
     bool spawnPowerup = true;
 
     void Update()

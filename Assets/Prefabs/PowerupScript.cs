@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PowerupScript : MonoBehaviour
 {
-    public float objectSpeed = -0.05f;
+    public float objectSpeed = -0.02f;
 
     void Update()
     {
