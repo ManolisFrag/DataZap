@@ -3,7 +3,7 @@ using System.Collections;
 
 
 public class GameControlScript : MonoBehaviour {
-    float timeRemaining = 20;   //Pre-earned time
+    float timeRemaining = 30;   //Pre-earned time
     float timeExtension = 3f;   //time to extend by on collecting powerup
     float timeDeduction = 2f;   //time to reduce, on collecting the snag
     float totalTimeElapsed = 0;

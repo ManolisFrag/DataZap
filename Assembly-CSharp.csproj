@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Finish.cs" />
      <Compile Include="Assets\GameControlScript.cs" />
      <Compile Include="Assets\PauseMenuC.cs" />
      <Compile Include="Assets\Prefabs\ObstacleScript.cs" />
